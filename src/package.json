@@ -1,0 +1,11 @@
+{
+  "name": "vault-guardian-ci",
+  "version": "1.0.0",
+  "description": "Target microservice evaluated by automated DevSecOps security gates",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --check src/server.js"
+  }
+}
